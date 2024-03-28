@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramesh Restro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<style>
+    section{
+        padding: 16px 0px;
+   
+}
+
+</style>
+
+
+</head>
+<body>
+<!-- Nav bar -->
+<nav class="navbar bg-light text-start  p-lg-1">
+    <div class="d-xsm-flex container-xxl">
+        <a href="#intro" class="navbar-brand">
+       
+        <div class="fw-bold text-dark display-5">
+          <img class="text mb-2 ms-3  " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-xS4c8cIxhqC_1KVSAdsVh7vRDv0RZNa0XQ&usqp=CAU" alt="Restro" width="65" height="70">
+        </div>
+     
+        </a>
+        <!-- <form class="d-xsm-flex d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary  " type="submit">Search</button>
+        </form> -->
+       
+
+       
+        <!-- Navbar links -->
+       
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="col d-lg-flex container-fluid">
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#pricing" class="btn btn-warning btn-md">Book</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <ul class="navbar-nav">
+            <div class="col d-flex container-fluid m-0 ">
+              <div class="input-group ">
+                <li>
+                  <span class="input-group me-4">
+                    <span class="tt" data-bs-placement="bottom" title="Search">
+                      <a class="" href="#"><i class="bi bi-search text-dark"></i></a>
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <span class="input-group me-4">
+                    <span class="tt" data-bs-placement="bottom" title="Wishlist">
+                      <a href="#"><i class="bi bi-suit-heart text-dark"></i></a>
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <span class="input-group me-4">
+                    <span class="tt" data-bs-placement="bottom" title="Help">
+                      <a href="#"><i class="bi bi-headset text-dark"></i></a>
+                    </span>
+                  </span>
+                </li>
+                <li>
+                  <span class="input-group">
+                    <span class="tt" data-bs-placement="bottom" title="Cart">
+                      <a href="#"><i class="bi bi-cart-plus text-dark"></i></a>
+                    </span>
+                  </span>
+                </li>
+              </div>
+            </div>
+           </ul>
+    </div>
+</nav>
+
+<!-- Main image and Intro text -->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-md-8 pt-lg-3 text-center text-md-start mt-5 ms-0">
+                    <h1>
+                        <div class="display-2 fw-bold text-Pacifico "><img class="text mb-5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-xS4c8cIxhqC_1KVSAdsVh7vRDv0RZNa0XQ&usqp=CAU" alt="" width="60" height="100">Ramesh-Restro</div>
+                        <div class="display-5 text-muted mt-0">Where taste matters!!</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">Best restaurent in the hyderabad Ramesh Restro</p>
+                    <a href="#pricing" class="btn btn-secondary btn-lg">Order Now</a>
+                    <!-- open sidebar / offcanvas -->
+                    <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                      Expore my menu items
+                    </a>
+                </div>
+                <div class="col md-4 text-center d-sm-block d-md-block mt-5">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-xS4c8cIxhqC_1KVSAdsVh7vRDv0RZNa0XQ&usqp=CAU" width="400" height="400" alt="Email">
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Cards -->
+
+    <section id="pricing" class="bg-light mt-5 ">
+        <div class="container-lg">
+        <div class="text-center">
+          <h2>Pricing Plans</h2>
+          <p class="lead text-muted">Choose a pricing plan to suit you</p>
+        </div>
+        <div class="row my-5 align-items-center justify-content-center g-0">
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Starter Edition</h4>
+                <p class="lead card-subtitle">Best Restro only</p>
+                <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                <p class="card-text mx-5 text-muted d-none d-md-block d-lg-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                <a href="#" class="btn btn-outline-primary btn-lg mt-3">Add Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-9 col-lg-4">
+            <div class="card border-primary border-2">
+              <div class="card-header text-center text-primary">Most Popular</div>
+              <div class="card-body text-center py-5">
+                <h4>Chiken Tikka</h4>
+                <p class="lead card-subtitle">Try here to chiken tikka</p>
+                <p class="display-4 my-4 text-primary fw-bold">$18.99</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">This is the one of the deleouses dish in Ramesh Restro in hyderabad</p>
+                <a href="#"class="btn btn-outline-primary btn-lg mt-3">Add Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Starter Edition</h4>
+                <p class="lead card-subtitle">Best Restro only</p>
+                <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                <p class="card-text mx-5 text-muted d-none d-md-block d-lg-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                <a href="#" class="btn btn-outline-primary btn-lg mt-3">Add Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Accordions -->
+    <!--Topics at a glance  -->
+<section id="topics">
+  <div class="container-md">
+    <div class="text-center">
+      <h2>Inside the Restro</h2>
+      <p class="lead text-muted">A quick glance at the topics you will learn</p>
+    </div>
+
+    <div class="row my-5 g-5 justify-content-around">
+      <div class="col-6 col-lg-4">
+        <img src="/practice.html/Images/resto-inside.jpeg" class="img-fluid" alt="resto-inside">
+      </div>
+      <div class="col-lg-6">
+     <!-- Accordian -->
+      <div class="accordion" id="chapters">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading-1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+              capter-1 Your First Web Page
+            </button>
+          </h2>
+          <div id="chapter-1" class="accordion-collapse collapse show " aria-labelledby="heading-1" data-bs-parent="#chapters">
+            <div class="accordion-body">
+              <p>his is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+              <p>his is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading-2">
+           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="true" aria-controls="chapter-2">
+             capter-2 Your Second Web Page
+           </button>
+          </h2>
+          <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+           <div class="accordion-body">
+             <p>his is the Second item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+             <p>his is the Second item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+           </div>
+         </div>
+         </div>
+       
+         <div class="accordion-item">
+          <h2 class="accordion-header" id="heading-3">
+           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="true" aria-controls="chapter-3">
+             capter-3 Your Third Web Page
+           </button>
+          </h2>
+          <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
+           <div class="accordion-body">
+             <p>his is the Third item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+             <p>his is the Third item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+           </div>
+         </div>
+        </div>
+   
+     <div class="accordion-item">
+      <h2 class="accordion-header" id="heading-4">
+       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="true" aria-controls="chapter-4">
+         capter-4 Your Fourth Web Page
+       </button>
+      </h2>
+      <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapters">
+       <div class="accordion-body">
+         <p>his is the Fourt item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+         <p>his is the Fourt item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+       </div>
+     </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading-5">
+       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="true" aria-controls="chapter-5">
+         capter-5 Your Fifth Web Page
+       </button>
+      </h2>
+      <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#chapters">
+       <div class="accordion-body">
+         <p>his is the Fifth item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+         <p>his is the Fifth item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+       </div>
+     </div>
+          </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lists -->
+<!-- review list -->
+<section id="reviews" class="bg-light">
+  <div class="container-lg">
+    <div class="text-center">
+      <h2 ><i class="bi bi-stars"></i>Restro Reviews</h2>
+      <p class="lead">What my customers have siad about the restro...</p>
+    </div>
+    <div class="row justify-content-center my-5">
+      <div class="col-lg-8">
+        <div class="list-group">
+          <div class="list-group-item py-3">
+            <div class="pb-2 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+            <p class="mb-1">his is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+            <small>review by Seetha</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+            <p class="mb-1">his is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+            <small>review by Seetha</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+            <p class="mb-1">his is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+            <small>review by Seetha</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+            <p class="mb-1">his is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+            <small>review by Seetha</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+            <p class="mb-1">his is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+            <small>review by Seetha</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+            <p class="mb-1">his is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+            <small>review by Seetha</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+            <p class="mb-1">his is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+            <small>review by Seetha</small>
+          </div>
+          <div class="list-group-item py-3">
+            <div class="pb-2 text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <h5 class="mb-1">A must buy for every aspiring web dev</h5>
+            <p class="mb-1">his is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.</p>
+            <small>review by Seetha</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Form -->
+<!-- form-control, form-label, form-select, input-group, input-group-text -->
+<section id="contact">
+  <div class="container-lg">
+    <div class="text-center">
+      <h2>Get in Touch</h2>
+      <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+    </div>
+
+    <div class="row justify-content-center my-5">
+
+        <div class="col-lg-6">
+          <form action="">
+            <label for="email" class="form-label">Email address</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-at-fill"></i>
+              </span>
+              <input type="email" class="form-control" id="email" placeholder="e.g.restro@example.com">
+              <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Enter an email adress we can replay to you..">
+                  <i class="bi bi-question-circle"></i>
+                </span>
+              </span>
+            </div>
+           
+            <label for="name" class="form-label">Name</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-person-fill"></i>
+              </span>
+              <input type="text" class="form-control" id="name" placeholder="e.g. Restro">
+              <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Pretty self explanatory really..">
+                  <i class="bi bi-question-circle"></i>
+                </span>
+              </span>
+            </div>
+           
+            <label for="subject" class="form-label">What is your question?</label>
+            <div class="input-group">
+              <span class="input-group-text">
+                <i class="bi bi-chat-left-dots-fill"></i>
+              </span>
+              <select class="form-select" id="select">
+                <option value="pricing" selected>Pricing query</option>
+                <option value="content">Content query</option>
+                <option value="other">Other query</option>
+              </select>
+            </div>
+           
+            <div class="form-floating mb-4 mt-1">
+              <textarea id="query" class="form-control" style="height: 140px;"></textarea>
+              <label for="query">Your query...</label>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+            </form>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- get updates / modal trigger -->
+<section class="bg-light">
+  <div class="container">
+    <div class="text-center">
+      <h2>Stay in the Loop</h2>
+      <p class="lead">Get the latest updates as they happen</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <p class="text-muted my-4"> We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. When content becomes longer than the prefedined max-height of modal, content will be cropped and scrollable within the modal.</p>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">Register for updates</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Model itself -->
+<div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+    </div>
+    <div class="modal-body">
+      <p> We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. When content becomes longer than the prefedined max-height of modal, content will be cropped and scrollable within the modal.</p>
+      <label for="modal-email" class="form-label">Your email address:</label>
+      <input type="email" class="form-control" id="modal-email" placeholder="e.g.restro@example.com">
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- offcanvas -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+  <div class="offcanvas-header">
+    <h5 class="0ffcanvas-title" id="sidebar-label">My Menu Items</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. When content becomes longer than the prefedined max-height of modal, content will be cropped and scrollable within the modal.</p>
+    <ol class="">
+      <li>Chiken</li>
+      <li>Mutton</li>
+      <li>Prans</li>
+      <li>Fish</li>
+    </ol>
+<!-- Dropdowns -->
+    <div class="dropdown">
+      <button class="btn btn-lg btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Restro Items
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="Restro-dropdown">
+        <li><a class="dropdown-item" href="chiken items.html">Chiken Items</a></li>
+        <li><a class="dropdown-item" href="mutton items.html">Mutton Items</a></li>
+        <li><a class="dropdown-item" href="prawns items.html">Prawns Items</a></li>
+        <li><a class="dropdown-item" href="fish items.html">Fish Items</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-secondary text-light">
+  <!-- Section: Social media -->
+  <section class="container d-flex justify-content-center  p-4 border-none">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block ms-3">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div class="me-5">
+        <a href="#" class="me-4 text-reset"><i class="fab bi-facebook"></i></a></li>
+        <a href="#" class="me-4 text-reset"><i class="fab bi-twitter"></i></a></li>
+        <a href="#" class="me-4 text-reset"><i class="fab bi-google"></i></a></li>
+        <a href="#" class="me-4 text-reset"><i class="fab bi-instagram"></i></a></li>
+        <a href="#" class="me-4 text-reset"><i class="fab bi-linkedin"></i></a></li>
+        <a href="#" class="me-4 text-reset"><i class="fab bi-whatsapp"></i></a></li>
+        <a href="#" class="me-4 text-reset"><i class="fab bi-youtube"></i></a></li>
+        <a href="#" class="me-4 text-reset"><i class="fab bi-telephone"></i></a></li>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="container-fluid border-top border-danger">
+    <div class="container text-center text-md-start mt-3">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3  col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas bi-gem me-3"></i>Ramesh Restro
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+            <p>
+              <a href="chiken items.html" class="text-reset">Chiken</a>
+            </p>
+            <p>
+              <a href="mutton items.html" class="text-reset">Mutton</a>
+            </p>
+            <p>
+              <a href="prawns items.html" class="text-reset">Prawns</a>
+            </p>
+            <p>
+              <a href="fish items.html" class="text-reset">Fish</a>
+            </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 ">Contact</h6>
+          <p><i class="bi bi-geo-alt"></i> Madhapur, Hyderabad, 500081</p>
+          <p><i class="bi bi-envelope-at"></i>  restro@gmail.com</p>
+          <p><i class="bi bi-phone me-3"></i>+ 91 80089 91949</p>
+          <p><i class="bi bi-phone me-3"></i>+ 91 77805 00201</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Rameshrestro.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      const tooltips = document.querySelectorAll('.tt')
+      tooltips.forEach(t => {
+        new bootstrap.Tooltip(t)
+      })
+    </script>
+</body>
+</html>
